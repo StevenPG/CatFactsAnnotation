@@ -8,16 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class Application {
 
-    public PrintHi hi = new PrintHi();
-
-    public PrintHi getHiObject() {
-        return this.hi;
-    }
-
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
-
-        Application app = new Application();
-        app.getHiObject().sayHi();
     }
 }
