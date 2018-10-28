@@ -8,7 +8,7 @@ public class AnnotationTestController {
 
     @CatFacts
     @GetMapping("/")
-    public String hello() {
+    public String catFactsMappingTest() {
         return "Successfully Accessed /";
     }
 }
