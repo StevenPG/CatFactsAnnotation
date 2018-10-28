@@ -45,6 +45,19 @@ The interface defines the annotation, and the aspect file links when it is suppo
 
 ### Caveats and Gotchas
 
+1. You'll need to remember to add the `@ComponentScan(basePackages = {"com.stevenpg"})` to your SpringApplication. Excluding this will not throw an error, but no cat facts will be logged as the aspect will not be loaded into the Spring Context.
+
+2. Don't name a controller mapping `catFactsMappingTest`. This seems to clash with the unit test in the CatFactsAnnotation library. I'm actively investigating how to make this not happen, but it's just a mini-gotcha no-one should ever run into.
+
 ### Creating a Release
+
+The initial release is formatted like so:
+
+    <groupId>com.stevenpg.aop</groupId>
+    <artifactId>CustomAopAnnotation</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+	
+The release will be uploaded to Gitlab for manual pulling, and I intend to deploy the jar with sources to Maven Central.
 
 ### Uploading the Maven Central
