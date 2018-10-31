@@ -1,0 +1,13 @@
+## v1.0
+
+Initial release
+
+- uploaded to maven central under the wrong name
+- included all of the test dependencies in the base jar
+- didn't comment the code at all
+- got 100% test coverage but didn't use an external tool or set any badges in README
+- forgot to setup maven badge in readme for v1.0
+- jar that prints cat facts is 19MB...
+- everything was done in master, no fun branching strategy or release branches
+
+I intend to fix everything above in v2.0, as well as redeploy a 2.0 and 2.1 which are linked to their specific version of spring. Probably.
