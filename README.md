@@ -9,6 +9,9 @@ This project exists as an extremely simple java only configuration example on ho
 
 Once deployed, anyone can download the dependency and annotate their classes with @CatFacts, which will print a catfact to STDOUT whenever the method is called.
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.stevenpg.aop/CustomAopAnnotation/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.stevenpg.aop/CustomAopAnnotation)
+
+
 ## Usage
 For your Spring application to find the CatFacts advice, you will need to add 
 
