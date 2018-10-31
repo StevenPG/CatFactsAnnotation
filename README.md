@@ -50,6 +50,15 @@ The interface defines the annotation, and the aspect file links when it is suppo
 
 2. Don't name a controller mapping `catFactsMappingTest`. This seems to clash with the unit test in the CatFactsAnnotation library. I'm actively investigating how to make this not happen, but it's just a mini-gotcha no-one should ever run into.
 
+### Github vs Gitlab
+
+This repository is mirrored locally between Github and Gitlab. I personally prefer Gitlab, but have both listed as remotes. Any changes made to Github will be propogated to Gitlab during the pull request process.
+
+    git push origin
+    git push github
+
+Both are set as remotes and manually pushed and pulled as changes require.
+
 ### Creating a Release
 
 The initial release is formatted like so:
