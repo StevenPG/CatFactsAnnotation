@@ -15,6 +15,7 @@ import java.util.Random;
 @Component
 public class CatFactsAspect {
 
+    private Random rand = new Random();
     private Logger logger = LoggerFactory.getLogger(this.getClass());
     private List<String> catFacts = Arrays.asList(
             "1. Cats are the most popular pet in the United States: There are 88 million pet cats and 74 million dogs.",
@@ -102,7 +103,6 @@ public class CatFactsAspect {
     @Around("@annotation(CatFacts)")
     public Object displayCatFact(ProceedingJoinPoint joinPoint) throws Throwable {
         final Object proceed = joinPoint.proceed();
-        Random rand = new Random();
         int catFactIndex = rand.nextInt(81) + 1;
         logger.info(catFacts.get(catFactIndex));
         return proceed;
