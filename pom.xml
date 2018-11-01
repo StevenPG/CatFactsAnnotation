@@ -4,14 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
     <groupId>com.stevenpg.aop</groupId>
-    <artifactId>CustomAopAnnotation</artifactId>
-    <version>1.0.0</version>
+    <artifactId>CatFactsAnnotation</artifactId>
+    <version>2.0.0</version>
 	<packaging>jar</packaging>
 
-    <name>CustomAopAnnotation</name>
-    <description>This project is an implementation of a spring annotation that will write logging information directly
-        to stdout and stderr where applicable. This was created to have a reference point for Spring AOP Annotations and
-        to make my team 'av a giggle.
+    <name>CatFactsAnnotation</name>
+    <description>This is a very serious annotation that will print a cat fact when invoked on a method.
     </description>
     <url>https://gitlab.com/StevenPG/customspringaopannotation</url>
 
@@ -94,6 +92,26 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.2</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
 
             <plugin>
