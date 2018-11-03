@@ -10,7 +10,7 @@ This project exists as an extremely simple java only configuration example on ho
 Once deployed, anyone can download the dependency and annotate their classes with @CatFacts, which will print a catfact to STDOUT whenever the method is called.
 
 ### CustomSpringAopAnnotation 1.0.0
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.stevenpg.catfacts/CustomAopAnnotation/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.stevenpg.catfacts/CustomAopAnnotation)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.stevenpg.aop/CustomAopAnnotation/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.stevenpg.catfacts/CustomAopAnnotation)
 
 [![SonarSource](https://sonarcloud.io/api/project_badges/measure?project=com.stevenpg.catfacts&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.stevenpg.catfacts)
 
