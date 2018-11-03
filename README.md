@@ -17,7 +17,7 @@ Once deployed, anyone can download the dependency and annotate their classes wit
 ### CatFacts 2.0.0
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.stevenpg.catfacts/CustomAopAnnotation/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.stevenpg.catfacts/CustomAopAnnotation)
 
-[![SonarSource](https://sonarcloud.io/api/project_badges/measure?project=com.stevenpg.catfacts.CatFactsAnnotation&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.stevenpg.catfacts.CatFactsAnnotation)
+[![SonarSource](https://sonarcloud.io/api/project_badges/measure?project=com.stevenpg.catfacts&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.stevenpg.catfacts)
 
 
 ## Usage
