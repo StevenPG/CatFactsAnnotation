@@ -1,4 +1,4 @@
-package com.stevenpg.aop;
+package com.stevenpg.catfacts;
 
 import ch.qos.logback.classic.spi.LoggingEvent;
 import ch.qos.logback.core.Appender;

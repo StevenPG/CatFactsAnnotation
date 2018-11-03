@@ -1,4 +1,4 @@
-package com.stevenpg.aop;
+package com.stevenpg.catfacts;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

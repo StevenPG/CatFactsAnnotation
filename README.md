@@ -10,9 +10,9 @@ This project exists as an extremely simple java only configuration example on ho
 Once deployed, anyone can download the dependency and annotate their classes with @CatFacts, which will print a catfact to STDOUT whenever the method is called.
 
 ### CustomSpringAopAnnotation 1.0.0
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.stevenpg.aop/CustomAopAnnotation/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.stevenpg.aop/CustomAopAnnotation)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.stevenpg.catfacts/CustomAopAnnotation/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.stevenpg.catfacts/CustomAopAnnotation)
 
-[![SonarSource](https://sonarcloud.io/api/project_badges/measure?project=com.stevenpg.aop.CatFactsAnnotation&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.stevenpg.aop.CatFactsAnnotation)
+[![SonarSource](https://sonarcloud.io/api/project_badges/measure?project=com.stevenpg.catfacts.CatFactsAnnotation&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.stevenpg.catfacts.CatFactsAnnotation)
 
 ### CatFacts 2.0.1
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.stevenpg.catfacts/CatFactsAnnotation/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.stevenpg.catfacts/CatFactsAnnotation)
@@ -41,7 +41,7 @@ Here is the sample output:
     2018-10-28 11:04:25.839  INFO 15736 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
     2018-10-28 11:04:25.839  INFO 15736 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
     2018-10-28 11:04:25.861  INFO 15736 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
-    2018-10-28 11:04:25.925  INFO 15736 --- [nio-8080-exec-1] com.stevenpg.aop.CatFactsAspect          : 4. Cats have over 20 muscles that control their ears.
+    2018-10-28 11:04:25.925  INFO 15736 --- [nio-8080-exec-1] com.stevenpg.catfacts.CatFactsAspect          : 4. Cats have over 20 muscles that control their ears.
 
 ## Project Reference Steps
 
@@ -74,7 +74,7 @@ Both are set as remotes and manually pushed and pulled as changes require.
 
 The initial release is formatted like so:
 
-    <groupId>com.stevenpg.aop</groupId>
+    <groupId>com.stevenpg.catfacts</groupId>
     <artifactId>CustomAopAnnotation</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>

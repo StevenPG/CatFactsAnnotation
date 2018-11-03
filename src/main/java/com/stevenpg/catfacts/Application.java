@@ -1,4 +1,4 @@
-package com.stevenpg.aop;
+package com.stevenpg.catfacts;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
